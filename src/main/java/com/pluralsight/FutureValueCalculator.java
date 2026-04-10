@@ -20,7 +20,11 @@ public class FutureValueCalculator {
         int year = scan.nextInt();
 
         double futureValue = Math.pow(principal * (1 + interest), (365 * year));
-        System.out.println(futureValue);
+        System.out.println("Your future value is: " + futureValue);
+
+        double totalInterest = futureValue - principal;
+        System.out.println("Your total interest earned is: " + totalInterest);
+
 
 
     }
