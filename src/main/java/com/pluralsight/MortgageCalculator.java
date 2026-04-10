@@ -25,7 +25,7 @@ public class MortgageCalculator {
         //Total interest = (Mxn)-P
         double totalInterest = (monthlyPayment * numberOfMonthlyPayments) - principal;
 
-        System.out.printf("$%.2f/mo payment with a total interest of $%.2f", monthlyPayment, totalInterest);
+        System.out.printf("$%.2f/mo payment with a total interest of $%.2f\n", monthlyPayment, totalInterest);
 
         System.out.println(monthlyPayment);
 
